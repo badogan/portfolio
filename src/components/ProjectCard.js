@@ -1,5 +1,6 @@
 import React from "react";
 import { HeroContent } from "../APIsHelpers/HelperContent";
+import ReactPlayer from "react-player";
 
 const ProjectCard = props => {
   const {
@@ -24,23 +25,30 @@ const ProjectCard = props => {
           ))}
         </div>
         <div className="project-details-buttons">
-        <a className="btn btn-ghost" href={liveSiteURL} target="_blank">
+          <a
+            className="btnProject btnProject-ghost"
+            href={liveSiteURL}
+            target="_blank"
+          >
             Live Site
           </a>
-          <a className="btn btn-ghost" href={demoVideoURL} target="_blank">
-            Demo Video
-          </a>
-          <a className="btn btn-ghost" href={sourceCodeURL} target="_blank">
+          <a
+            className="btnProject btnProject-ghost"
+            href={sourceCodeURL}
+            target="_blank"
+          >
             Source Code
           </a>
-          
         </div>
       </div>
 
       <div className="project-visuals">
-        <div>
+        {/* <div className='player-wrapper'> */}
+          <ReactPlayer url={demoVideoURL} playing='true' loop='true' volume='0'/>
+        {/* </div> */}
+        {/* <div>
           <img src="https://images.unsplash.com/photo-1464788061904-b026adb5422b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"></img>
-        </div>
+        </div> */}
       </div>
     </div>
   );

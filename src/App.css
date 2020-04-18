@@ -226,13 +226,54 @@ header h3 {
 .project-details-buttons {
  display: flex;
  margin-top: .5em;
+ justify-content: flex-start;
 }
+
+.btnProject:link,
+.btnProject:visited {
+  /* display: inline-block; */
+  margin-right: .25em;
+  padding: .4em 1.2em;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: .6em .6em .6em .6em;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btnProject-ghost:link,
+.btnProject-ghost:visited {
+  border: 1px solid #e67e22;
+  color: #e67e22;
+}
+
+.btnProject:hover,
+.btnProject:active {
+  background-color: #cf6d17;
+}
+
+.btnProject-ghost:hover,
+.btnProject-ghost:active {
+  border: 1px solid #cf6d17;
+  color: #fff;
+}
+
 
 .project-visuals {
   display: flex;
   flex-direction: row;
   width: 50%;
   overflow: hidden;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+ 
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
  .project-visuals img {
