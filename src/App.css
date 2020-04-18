@@ -52,6 +52,12 @@ html {
   max-width: 2em;
 }
 
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  /* max-width: 960px; */
+}
+
 /* --------HEADINGS------- */
 
 h1 {
@@ -66,6 +72,15 @@ h1 {
 }
 
 h2 {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  font-size: 200%;
+  font-weight: 400;
+  letter-spacing: .25em;
+  word-spacing: 4px;
+}
+
+h6 {
   font-size: 190%;
 }
 
@@ -147,10 +162,104 @@ header h3 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.logos-each {
+
+/* ========================================================== */
+/* ========PROJECTS================== */
+/* ========================================================== */
+.projects-main-div{
+  display:flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.projects-heading{
+  align-self: center;
+  margin-bottom: 1em;
+}
+
+.projects-projectcardsContainer{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* ==========PROJECT CARD =========*/
+.projectcard-main-div {
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+}
+
+.project-details{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.project-details-name {
+  margin-bottom: .5em;
+  font-weight: 400;
+  margin-top: 0;
+  /* font-size: 240%; */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  color: #e67e22;
+}
+
+.project-details-description {
+  margin-bottom: .5em;
+  font-weight: 300;
+  margin-top: 0;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+.project-details-logos{
+  margin-top: .5em;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.project-details-buttons {
+ display: flex;
+ margin-top: .5em;
+}
+
+.project-visuals {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  overflow: hidden;
+}
+
+ .project-visuals img {
+  opacity: 0.9;
+  display: flex;
+  width: 100%;
+  height: auto;
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.project-visuals img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+
+/* //////////////////// */
+/* .logos-each {
   display:flex;
   width: 30%;
-}
+} */
 
 
 /* .App {

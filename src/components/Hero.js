@@ -1,9 +1,9 @@
 import React from "react";
 import { HeroContent } from "../APIsHelpers/HelperContent";
-import Logo from "./Logo";
 
 const Hero = () => {
   const content = HeroContent;
+  const logos = content.logos;
   return (
     <React.Fragment>
       <header>
@@ -12,22 +12,17 @@ const Hero = () => {
             {content.name} | {content.title}
           </h1>
 
-          <a className="btn btn-full" href="#">
+          <a className="btn btn-full" href="#projects">
             {content.button1Content}
           </a>
-          <a className="btn btn-ghost" href="#">
+          <a className="btn btn-ghost" href="#contacts">
             {content.button2Content}
           </a>
           {/* <h3>My Stack:</h3> */}
           <div className="logos-div">
-            {content.logos.map((logoClass,index) => (
-              <h2 key={index}>
-                <i
-                  // style={{ display: "flex", width: "20%" }}
-                  className={`${logoClass}`}
-                ></i>
-              </h2>
-            ))}
+            {Object.keys(logos).map((logokey,index) => 
+              <h6 key={index}> <i className={logos[logokey]}></i></h6>
+            )}
           </div>
         </div>
       </header>
