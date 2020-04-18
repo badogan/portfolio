@@ -1,4 +1,155 @@
-.App {
+/* ========================================================== */
+/* BASIC SETUP */
+/* ========================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+/* ========================================================== */
+/* REUSABLE COMPONENTS */
+/* ========================================================== */
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto 0 auto;
+}
+
+.i {
+  font-size: 240%;
+}
+
+.blinking{
+  animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+  0%{     color:#fbfab5 ;    }
+  20%{     color:#faf9a5 ;    }
+  40%{     color:#f9f895 ;    }
+  /* 60%{     color:#f8f785 ;    } */
+  60%{     color: transparent ;    }
+  80%{     color:#f9f895 ;    }
+  100%{     color:#faf9a5 ;    }
+
+  /* 0%{     color: #fff;    }
+  49%{    color: #fff; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #fff;    } */
+}
+
+.devicon-git-plain {
+  max-width: 2em;
+}
+
+/* --------HEADINGS------- */
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 240%;
+  font-weight: 300;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+/* --------BUTTONS------- */
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: .5em 1.5em;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 1em 1em 1em 1em;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  color: #fff;
+  margin-right: .5em;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #e67e22;
+  color: #e67e22;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid #cf6d17;
+  color: #fff;
+}
+
+/* ========================================================== */
+/* HEADER */
+/* ========================================================== */
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+header h3 {
+  margin-top: 5em;
+  color: #fff;
+  font-weight: 200;
+}
+
+.hero-text-box {
+  /* display: flex; */
+  position: absolute;
+  /* width: 1140px; */
+  top: 30%;
+  left: 15%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.logos-div {
+  /* margin-top: 1em; */
+  margin-left: auto;
+  margin-right:auto;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.logos-each {
+  display:flex;
+  width: 10%;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +186,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
