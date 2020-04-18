@@ -1,6 +1,6 @@
 import React from "react";
 import { HeroContent } from "../APIsHelpers/HelperContent";
-import Logo from './Logo'
+import Logo from "./Logo";
 
 const Hero = () => {
   const content = HeroContent;
@@ -18,19 +18,16 @@ const Hero = () => {
           <a className="btn btn-ghost" href="#">
             {content.button2Content}
           </a>
-          <h3>My Stack:</h3>
-          <div className='logos-div'>
-            <h4 className="logos-each">TEST-1</h4>
-            <h4 className="logos-each">TEST-2</h4>
-            <h4 className="logos-each">TEST-3</h4>
-            <h4 className="logos-each">TEST-4</h4>
-            <h4 className="logos-each">TEST-5</h4>
-            <h4 className="logos-each">TEST-6</h4>
-            <h4 className="logos-each">TEST-7</h4>
-            <h4 className="logos-each">TEST-8</h4>
-            <h4 className="logos-each">TEST-9</h4>
-            <h4 className="logos-each">TEST-10</h4>
-            <h4 className="logos-each">TEST-11</h4>
+          {/* <h3>My Stack:</h3> */}
+          <div className="logos-div">
+            {content.logos.map((logoClass,index) => (
+              <h2 key={index}>
+                <i
+                  // style={{ display: "flex", width: "20%" }}
+                  className={`${logoClass}`}
+                ></i>
+              </h2>
+            ))}
           </div>
         </div>
       </header>

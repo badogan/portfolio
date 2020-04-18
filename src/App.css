@@ -65,14 +65,18 @@ h1 {
   word-spacing: 4px;
 }
 
+h2 {
+  font-size: 190%;
+}
+
 /* --------BUTTONS------- */
 .btn:link,
 .btn:visited {
   display: inline-block;
-  padding: .5em 1.5em;
+  padding: .4em 1.2em;
   font-weight: 300;
   text-decoration: none;
-  border-radius: 1em 1em 1em 1em;
+  border-radius: .6em .6em .6em .6em;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -136,16 +140,16 @@ header h3 {
 }
 
 .logos-div {
-  /* margin-top: 1em; */
+  margin-top: 5em;
   margin-left: auto;
   margin-right:auto;
   display:flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .logos-each {
   display:flex;
-  width: 10%;
+  width: 30%;
 }
 
 
