@@ -8,10 +8,12 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <React.Fragment>
-      <Hero />
-      <Projects />
-      <BlogPosts />
-      <Contact />
+      <div className='App'>
+        <Hero />
+        <Projects />
+        <BlogPosts />
+        <Contact />
+      </div>
     </React.Fragment>
   );
 }

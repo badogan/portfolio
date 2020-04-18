@@ -27,22 +27,38 @@ const ProjectsContent = [
   {
     name: "Meet Me In The Middle",
     description:
-      "Web app allowing users to find shortlisted places in locations with approximate similar travel times for all entered postcodes. Also allows users to go to Google Maps for a selected place, share via Whatsapp or travel with CityMapper.",
-    imageURL: "./../images/MeetMeInTheMiddle.png",
+      "Web app allowing users to find shortlisted places in locations with approximate similar travel times for all entered postcodes. Also allows users to go to Google Maps for a selected place, share via Whatsapp or travel with CityMapper. Google Maps Places, nearbysearch API for shortlisted places. Utilized api.postcodes.io for geoding, nearestpostcode assessment",
     demoVideoURL: "https://youtu.be/YnpBwkC9IMg",
     sourceCodeURL: "https://github.com/badogan/experimental-design",
     liveSiteURL: "https://friendly-allen-734a93.netlify.com/",
     stackUsed: ["react", "ruby", "heroku", "postgres", "js", "rails"]
   },
   {
-    name: "Meet Me In The Middle 2",
+    name: "I Want My Book Back",
     description:
-      "Web app allowing users to find shortlisted places in locations with approximate similar travel times for all entered postcodes. Also allows users to go to Google Maps for a selected place, share via Whatsapp or travel with CityMapper.",
-    imageURL: "./../images/MeetMeInTheMiddle.png",
-    demoVideoURL: "https://youtu.be/YnpBwkC9IMg",
-    sourceCodeURL: "https://github.com/badogan/experimental-design",
-    liveSiteURL: "https://friendly-allen-734a93.netlify.com/",
-    stackUsed: ["react", "ruby", "heroku", "postgres", "js", "rails"]
+      "Users can use the site to keep track of people they have lent their books to. It demonstrates basic CRUD functionalities allowing users to create, view, update and delete their books. Web app with React frontend utilizing created from scratch backend Nodejs Express API with MongoDB. Live site deployed to Netlify and Heroku",
+    demoVideoURL: "https://youtu.be/j8cNV0nLk3U",
+    sourceCodeURL: "https://github.com/badogan/booktracker",
+    liveSiteURL: "https://hungry-brattain-f49eab.netlify.com/",
+    stackUsed: ["nodejs","express","mongodb","react", "heroku","js"]
+  },
+  {
+    name: "News App",
+    description:
+      "Web application providing current news for various categories and countries. Pure Javascript on frontend achieved intense use and understanding of DOM interaction and modification. Ruby on Rails backend for signup, signin and signout. Uses Postgres db via ActiveRecords for persisting user-related data, including save-for-later functionality. 3rd party API consumption",
+    demoVideoURL: "https://youtu.be/IYBPDYojZY8",
+    sourceCodeURL: "https://github.com/badogan/newsAPIInitialInvestigation",
+    liveSiteURL: null,
+    stackUsed: ["js","rails","ruby"]
+  },
+  {
+    name: "Foody",
+    description:
+      "Web application allowing users to search, signup and book events. Also allows hosts to signup and create events and administrator to get basic usage data. Ruby on Rails app including use of ERB templates. Ruby on Rails for signup, signin, signout and management of various models for the site",
+    demoVideoURL: "https://youtu.be/RKbrooxeM1M",
+    sourceCodeURL: "https://github.com/anamecia/mod2app",
+    liveSiteURL: null,
+    stackUsed: ["rails","ruby","postgres"]
   }
 ];
 

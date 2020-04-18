@@ -6,7 +6,6 @@ const ProjectCard = props => {
   const {
     name,
     description,
-    imageURL,
     demoVideoURL,
     sourceCodeURL,
     liveSiteURL,
@@ -19,32 +18,32 @@ const ProjectCard = props => {
         <h4 className="project-details-description"> {description}</h4>
         <div className="project-details-logos">
           {stackUsed.map((stack, index) => (
-            <h6 key={index}>
+            <h6 className='project-details-each-logo' key={index}>
               <i className={HeroContent.logos[stack]}></i>
             </h6>
           ))}
         </div>
         <div className="project-details-buttons">
-          <a
+          {liveSiteURL && <a
             className="btnProject btnProject-ghost"
             href={liveSiteURL}
             target="_blank"
           >
             Live Site
-          </a>
-          <a
+          </a>}
+          {sourceCodeURL && <a
             className="btnProject btnProject-ghost"
             href={sourceCodeURL}
             target="_blank"
           >
             Source Code
-          </a>
+          </a>}
         </div>
       </div>
 
       <div className="project-visuals">
         {/* <div className='player-wrapper'> */}
-          <ReactPlayer url={demoVideoURL} playing='true' loop='true' volume='0'/>
+          <ReactPlayer url={demoVideoURL}/>
         {/* </div> */}
         {/* <div>
           <img src="https://images.unsplash.com/photo-1464788061904-b026adb5422b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"></img>

@@ -223,6 +223,10 @@ header h3 {
   flex-wrap: wrap;
 }
 
+.project-details-each-logo {
+  margin-right: .5em;
+}
+
 .project-details-buttons {
  display: flex;
  margin-top: .5em;
@@ -303,10 +307,11 @@ header h3 {
 } */
 
 
-/* .App {
+.App {
   text-align: center;
 }
 
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
