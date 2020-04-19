@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="clarity-hack"></div>
       <div className="hero-name-title">
         <h1>
-          {content.name} | {content.title}
+          {content.name} {content.title}
         </h1>
       </div>
 

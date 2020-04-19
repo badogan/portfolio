@@ -155,15 +155,15 @@ h6 {
 }
 
 .clarity-hack {
-  height: 38vh;
+  height: 35vh;
 }
 
 .hero-name-title {
-  height: 12vh;
+  height: 10vh;
 }
 
 .hero-buttons {
-  height: 10vh;
+  height: 15vh;
 }
 
 .hero-mystack {
@@ -171,13 +171,19 @@ h6 {
   flex-direction: column;
 }
 
+.hero-mystack h6 {
+  font-size: 200%;
+}
+
 .hero-logos-div {
   height: 20vh;
+  width:60%;
   /* margin-top: 5em; */
   /* margin-left: auto; */
   /* margin-right: auto; */
   display: flex;
   flex-wrap: wrap;
+  /* margin-right: 10em; */
   justify-content: space-between;
 }
 
@@ -204,8 +210,6 @@ h5 {
 h5:active {
   background-color: #cf6d17;
 } */
-
-h5
 
 /* .hero-main-container h3 { */
 /* margin-top: 5em; */

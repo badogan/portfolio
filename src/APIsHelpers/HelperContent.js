@@ -1,6 +1,6 @@
 const HeroContent = {
   name: "Basri Dogan",
-  title: "Software Engineer",
+  title: null,
   button1Content: "Projects",
   button2Content: "Blog Posts",
   logos: {
