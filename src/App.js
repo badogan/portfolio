@@ -3,7 +3,6 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import BlogPosts from "./components/BlogPosts";
-import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
         <Hero />
         <Projects />
         <BlogPosts />
-        <Contact />
       </div>
     </React.Fragment>
   );

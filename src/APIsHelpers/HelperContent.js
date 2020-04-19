@@ -20,7 +20,21 @@ const HeroContent = {
     mysql: "devicon-mysql-plain-wordmark",
     rails: "devicon-rails-plain-wordmark",
     python: "devicon-python-plain-wordmark"
-  }
+  },
+  stayintouchLogos: [
+    {
+      fontLink: "fab fa-linkedin",
+      externalLink: "https://www.linkedin.com/in/basri-dogan/"
+    },
+    {
+      fontLink: "far fa-envelope",
+      externalLink: "mailto:basri.dogan.71@gmail.com"
+    },
+    {
+      fontLink: "fab fa-github",
+      externalLink: "https://github.com/badogan"
+    }
+  ]
 };
 
 const ProjectsContent = [

@@ -11,7 +11,7 @@ const BlogpostCard = props => {
       <div className="blogpost-details-buttons">
         {url && (
           <a className="btnProject btnProject-ghost" href={url} target="_blank">
-            Go to blogpost
+            Read more
           </a>
         )}
       </div>
