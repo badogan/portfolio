@@ -4,9 +4,17 @@ const BlogpostCard = props => {
   const { heading, description, url } = props.blogpost;
   return (
     <div className="blogpostcard-main-div wrapper">
-      <div>{heading}</div>
-      <div>{description}</div>
-      <div>{url}</div>
+      <div className="blogpost-details-name">{heading}</div>
+
+      <div className="blogpost-details-description">{description}</div>
+
+      <div className="blogpost-details-buttons">
+        {url && (
+          <a className="btnProject btnProject-ghost" href={url} target="_blank">
+            Go to blogpost
+          </a>
+        )}
+      </div>
     </div>
   );
 };

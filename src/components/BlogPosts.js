@@ -1,14 +1,14 @@
 import React from "react";
-import {BlogpostsContent} from '../APIsHelpers/HelperContent'
-import BlogpostCard from './BlogpostCard'
+import { BlogpostsContent } from "../APIsHelpers/HelperContent";
+import BlogpostCard from "./BlogpostCard";
 
 const BlogPosts = () => {
-  const content = BlogpostsContent
+  const content = BlogpostsContent;
 
   return (
-    <div id='blogposts' className='blogposts-main-div wrapper'>
+    <div id="blogposts" className="blogposts-main-div wrapper">
       <div className="blogposts-heading">
-        <h2 >BLOGPOSTS</h2>
+        <h2>BLOGPOSTS</h2>
       </div>
       <div className="blogposts-blogpostcardsContainer">
         {content.map((blogpost, index) => (
@@ -16,7 +16,7 @@ const BlogPosts = () => {
         ))}
       </div>
     </div>
-  )
+  );
 };
 
 export default BlogPosts;
