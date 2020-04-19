@@ -40,7 +40,7 @@ const ProjectsContent = [
     demoVideoURL: "https://youtu.be/j8cNV0nLk3U",
     sourceCodeURL: "https://github.com/badogan/booktracker",
     liveSiteURL: "https://hungry-brattain-f49eab.netlify.com/",
-    stackUsed: ["nodejs","express","mongodb","react", "heroku","js"]
+    stackUsed: ["nodejs", "express", "mongodb", "react", "heroku", "js"]
   },
   {
     name: "News App",
@@ -48,8 +48,8 @@ const ProjectsContent = [
       "Web application providing current news for various categories and countries. Pure Javascript on frontend achieved intense use and understanding of DOM interaction and modification. Ruby on Rails backend for signup, signin and signout. Uses Postgres db via ActiveRecords for persisting user-related data, including save-for-later functionality. 3rd party API consumption",
     demoVideoURL: "https://youtu.be/IYBPDYojZY8",
     sourceCodeURL: "https://github.com/badogan/newsAPIInitialInvestigation",
-    liveSiteURL: null,
-    stackUsed: ["js","rails","ruby"]
+    liveSiteURL: "https://github.com/badogan/newsAPIInitialInvestigation",
+    stackUsed: ["js", "rails", "ruby"]
   },
   {
     name: "Foody",
@@ -57,9 +57,22 @@ const ProjectsContent = [
       "Web application allowing users to search, signup and book events. Also allows hosts to signup and create events and administrator to get basic usage data. Ruby on Rails app including use of ERB templates. Ruby on Rails for signup, signin, signout and management of various models for the site",
     demoVideoURL: "https://youtu.be/RKbrooxeM1M",
     sourceCodeURL: "https://github.com/anamecia/mod2app",
-    liveSiteURL: null,
-    stackUsed: ["rails","ruby","postgres"]
+    liveSiteURL: "https://github.com/anamecia/mod2app",
+    stackUsed: ["rails", "ruby", "postgres"]
   }
 ];
 
-export { HeroContent, ProjectsContent };
+const BlogpostsContent = [
+  {
+    heading: "A retrospective: React and Form Components",
+    description: "My journey with the bootcamp is continuing :) I also continue learning more about myself. One of the things I found out is that I am pretty efficient in grasping the big picture and primary key elements/differentiators of what I am learning.",
+    url: "https://medium.com/@basri.dogan.71/a-retrospective-react-and-form-components-9fadf6268b4c"
+  },
+  {
+    heading: "A retrospective: React and Form Components",
+    description: "My journey with the bootcamp is continuing :) I also continue learning more about myself. One of the things I found out is that I am pretty efficient in grasping the big picture and primary key elements/differentiators of what I am learning.",
+    url: "https://medium.com/@basri.dogan.71/a-retrospective-react-and-form-components-9fadf6268b4c"
+  }
+];
+
+export { HeroContent, ProjectsContent, BlogpostsContent };

@@ -6,9 +6,9 @@ const Projects = () => {
   const content = ProjectsContent;
 
   return (
-    <div className="projects-main-div wrapper">
+    <div id='projects' className="projects-main-div wrapper">
       <div className="projects-heading">
-        <h2 id='projects'>PROJECTS</h2>
+        <h2 >PROJECTS</h2>
       </div>
       <div className="projects-projectcardsContainer">
         {content.map((project, index) => (

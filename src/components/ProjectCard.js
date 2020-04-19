@@ -29,25 +29,23 @@ const ProjectCard = props => {
             href={liveSiteURL}
             target="_blank"
           >
-            Live Site
+            Web
           </a>}
           {sourceCodeURL && <a
             className="btnProject btnProject-ghost"
             href={sourceCodeURL}
             target="_blank"
           >
-            Source Code
+            GitHub
           </a>}
         </div>
       </div>
 
       <div className="project-visuals">
         {/* <div className='player-wrapper'> */}
-          <ReactPlayer url={demoVideoURL}/>
+          <ReactPlayer  width='100%'
+          height='100%' className='testing' url={demoVideoURL}/>
         {/* </div> */}
-        {/* <div>
-          <img src="https://images.unsplash.com/photo-1464788061904-b026adb5422b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"></img>
-        </div> */}
       </div>
     </div>
   );

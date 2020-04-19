@@ -74,9 +74,9 @@ h1 {
 h2 {
   margin-top: 1.5em;
   margin-bottom: 1em;
-  font-size: 200%;
+  font-size: 180%;
   font-weight: 400;
-  letter-spacing: .25em;
+  letter-spacing: .5em;
   word-spacing: 4px;
 }
 
@@ -171,11 +171,13 @@ header h3 {
   align-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-bottom: 5em;
 }
 
 .projects-heading{
   align-self: center;
-  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 2.5em;
 }
 
 .projects-projectcardsContainer{
@@ -187,7 +189,7 @@ header h3 {
 .projectcard-main-div {
   display:flex;
   flex-direction: row;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
   flex-wrap: wrap;
 }
 
@@ -204,8 +206,8 @@ header h3 {
   margin-top: 0;
   /* font-size: 240%; */
   text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 4px;
+  letter-spacing: .75px;
+  word-spacing: 3px;
   color: #e67e22;
 }
 
@@ -215,6 +217,7 @@ header h3 {
   margin-top: 0;
   letter-spacing: 1px;
   word-spacing: 5px;
+  width: 95%;
 }
 
 .project-details-logos{
@@ -237,7 +240,7 @@ header h3 {
 .btnProject:visited {
   /* display: inline-block; */
   margin-right: .25em;
-  padding: .4em 1.2em;
+  padding: .3em 1.2em;
   font-weight: 300;
   text-decoration: none;
   border-radius: .6em .6em .6em .6em;
@@ -266,7 +269,12 @@ header h3 {
   display: flex;
   flex-direction: row;
   width: 50%;
-  overflow: hidden;
+  flex-wrap: wrap;
+  /* overflow: hidden; */
+}
+
+.testing {
+  display: flex;
 }
 
 .player-wrapper {
@@ -299,6 +307,36 @@ header h3 {
   transform: scale(1.03);
 }
 
+/* ========================================================== */ 
+/* ========BLOGPOSTS================== */
+/* ========================================================== */
+.blogposts-main-div{
+  display:flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 5em;
+}
+
+.blogposts-heading{
+  align-self: center;
+  /* margin-top: 1em; */
+  margin-bottom: 2.5em;
+}
+
+.blogposts-blogpostcardsContainer{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.blogpostcard-main-div {
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+  width:50%;
+}
 
 /* //////////////////// */
 /* .logos-each {
@@ -306,10 +344,11 @@ header h3 {
   width: 30%;
 } */
 
-
+/* 
 .App {
   text-align: center;
-}
+  display: flex;
+} */
 
 /* 
 .App-logo {
