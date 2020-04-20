@@ -8,7 +8,6 @@ const Hero = () => {
 
   return (
     <div className="hero-main-container wrapper2">
-      <div className="clarity-hack"></div>
       <div className="hero-name-title">
         <h1>
           {content.name} {content.title}

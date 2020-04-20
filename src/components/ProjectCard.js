@@ -12,6 +12,7 @@ const ProjectCard = props => {
     stackUsed
   } = props.project;
   return (
+    <React.Fragment>
     <div className="projectcard-main-div wrapper">
       <div className="project-details">
         <h3 className="project-details-name"> {name}</h3>
@@ -27,27 +28,26 @@ const ProjectCard = props => {
           {liveSiteURL && <a
             className="btnProject btnProject-ghost"
             href={liveSiteURL}
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
           >
             Web
           </a>}
           {sourceCodeURL && <a
             className="btnProject btnProject-ghost"
             href={sourceCodeURL}
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
           >
             GitHub
           </a>}
         </div>
-      </div>
+      </div> 
 
       <div className="project-visuals">
-        {/* <div className='player-wrapper'> */}
           <ReactPlayer  width='100%'
-          height='100%' className='testing' url={demoVideoURL}/>
-        {/* </div> */}
+          height='100%' url={demoVideoURL}/>
       </div>
     </div>
+    </React.Fragment>
   );
 };
 

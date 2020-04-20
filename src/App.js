@@ -7,11 +7,11 @@ import BlogPosts from "./components/BlogPosts";
 function App() {
   return (
     <React.Fragment>
-      <div className='App'>
+      {/* <div className='App'> */}
         <Hero />
         <Projects />
         <BlogPosts />
-      </div>
+      {/* </div> */}
     </React.Fragment>
   );
 }

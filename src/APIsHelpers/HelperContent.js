@@ -78,29 +78,46 @@ const ProjectsContent = [
 
 const BlogpostsContent = [
   {
+    heading: "Nodejs Express Middleware",
+    description:
+      "next() allows the “next” middleware function to do its job. People who develop code knows the importance of code hand overs. So, next() is providing just that without the need to even think about what is next",
+    url:
+      "https://medium.com/@basri.dogan.71/nodejs-express-middleware-6377a0194c59"
+  },
+  {
     heading: "A retrospective: React and Form Components",
-    description: "Controlled input as used in React can save the value in state as the form changes. This controlled behaviour is key in React forms as it opens many possibilities due to the fact that such state can drive different behaviour in many other components on the page",
-    url: "https://medium.com/@basri.dogan.71/a-retrospective-react-and-form-components-9fadf6268b4c"
+    description:
+      "Controlled input as used in React can save the value in state as the form changes. This controlled behaviour is key in React forms as it opens many possibilities due to the fact that such state can drive different behaviour in many other components on the page",
+    url:
+      "https://medium.com/@basri.dogan.71/a-retrospective-react-and-form-components-9fadf6268b4c"
   },
   {
     heading: "A bit of comparison on Javascript and Ruby array iterators",
-    description: "Ruby’s methods will call a given block for each element in the array while Javascript would apply a function on the item being iterated. As per the syntax goes, Javascript is a bit “harder” given the fact that Ruby is designed to be English-like.",
-    url: "https://medium.com/@basri.dogan.71/a-bit-of-comparison-on-javascript-and-ruby-array-iterators-3492d9ab1f6e"
+    description:
+      "Ruby’s methods will call a given block for each element in the array while Javascript would apply a function on the item being iterated. As per the syntax goes, Javascript is a bit “harder” given the fact that Ruby is designed to be English-like.",
+    url:
+      "https://medium.com/@basri.dogan.71/a-bit-of-comparison-on-javascript-and-ruby-array-iterators-3492d9ab1f6e"
   },
   {
     heading: "Starting to see the big picture…",
-    description: "Obviously web development frameworks are also developed by programming languages — no magic here :). The ones I’d like to elaborate a bit more are : Ruby on Rails and Flask. RoR utilizes an MVC design pattern. Model holds business logic and data for the application. It also communicates with the database.",
-    url: "https://medium.com/@basri.dogan.71/starting-to-see-the-big-picture-c9f211dd91eb"
+    description:
+      "Obviously web development frameworks are also developed by programming languages — no magic here :). The ones I’d like to elaborate a bit more are : Ruby on Rails and Flask. RoR utilizes an MVC design pattern. Model holds business logic and data for the application. It also communicates with the database.",
+    url:
+      "https://medium.com/@basri.dogan.71/starting-to-see-the-big-picture-c9f211dd91eb"
   },
   {
     heading: "Baby Steps Continued— Pair-programming, Tests & Documentation",
-    description: "TDD from the very start, however, we now have the first set of tests which we can use in the later versions. How so? Regression testing is important when big software projects come to life. Full disclosure: I used to be part of such big projects. I know how important being able to run regression",
-    url: "https://medium.com/@basri.dogan.71/baby-steps-continued-pair-programming-tests-documentation-c382d6c60d23"
+    description:
+      "TDD from the very start, however, we now have the first set of tests which we can use in the later versions. How so? Regression testing is important when big software projects come to life. Full disclosure: I used to be part of such big projects. I know how important being able to run regression",
+    url:
+      "https://medium.com/@basri.dogan.71/baby-steps-continued-pair-programming-tests-documentation-c382d6c60d23"
   },
   {
     heading: "Re-using with an intent",
-    description: "delimiters_array is simply an array of every single delimiter that you would want to get rid of. Then comes the Regexp which is used to match a pattern against a string. It is used in conjunction with one of its methods - union. And the last one is the good old split. That’s it!",
-    url: "https://medium.com/@basri.dogan.71/re-using-with-with-an-intent-6678b74c01db"
+    description:
+      "delimiters_array is simply an array of every single delimiter that you would want to get rid of. Then comes the Regexp which is used to match a pattern against a string. It is used in conjunction with one of its methods - union. And the last one is the good old split. That’s it!",
+    url:
+      "https://medium.com/@basri.dogan.71/re-using-with-with-an-intent-6678b74c01db"
   }
 ];
 

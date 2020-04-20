@@ -10,7 +10,7 @@ const BlogpostCard = props => {
 
       <div className="blogpost-details-buttons">
         {url && (
-          <a className="btnProject btnProject-ghost" href={url} target="_blank">
+          <a className="btnProject btnProject-ghost" href={url} target="_blank" rel="noopener noreferrer">
             Read more
           </a>
         )}

@@ -10,11 +10,9 @@ const Projects = () => {
       <div className="projects-heading">
         <h2>PROJECTS</h2>
       </div>
-      <div className="projects-projectcardsContainer">
         {content.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
-      </div>
     </div>
   );
 };
