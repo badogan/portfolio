@@ -51,7 +51,7 @@ const ProjectsContent = [
     name: "I Want My Book Back",
     description:
       "Users can use the site to keep track of people they have lent their books to. It demonstrates basic CRUD functionalities allowing users to create, view, update and delete their books. Web app with React frontend utilizing created from scratch backend Nodejs Express API with MongoDB. Live site deployed to Netlify and Heroku",
-    demoVideoURL: "https://youtu.be/j8cNV0nLk3U",
+    demoVideoURL: "https://youtu.be/iUpLmcJYFOE",
     sourceCodeURL: "https://github.com/badogan/testing-wed",
     liveSiteURL: "https://hungry-brattain-f49eab.netlify.com/",
     stackUsed: ["nodejs", "express", "mongodb", "react", "heroku", "js"]
