@@ -85,6 +85,13 @@ const BlogpostsContent = [
       "https://medium.com/@basri.dogan.71/nodejs-express-middleware-6377a0194c59"
   },
   {
+    heading: "Material UI, JSS and useStyles()",
+    description:
+      "In reality it applies the styling on top of the sytles that come with the theme. And with a bit of design and importing ThemeProvider, you can actually pass theme to children from a root React component (like App.js to other children React components)",
+    url:
+      "https://medium.com/@basri.dogan.71/material-ui-jss-and-usestyles-c77c28ac6a87"
+  },
+  {
     heading: "A retrospective: React and Form Components",
     description:
       "Controlled input as used in React can save the value in state as the form changes. This controlled behaviour is key in React forms as it opens many possibilities due to the fact that such state can drive different behaviour in many other components on the page",
