@@ -85,6 +85,13 @@ const BlogpostsContent = [
       "https://medium.com/@basri.dogan.71/nodejs-express-middleware-6377a0194c59"
   },
   {
+    heading: "Github Actions, Jest and testing-library/react",
+    description:
+      "To unit test a React component is testing behaviour of component with DOM manipulations rather than focusing inner workings of the React or the component built.",
+    url:
+      "https://medium.com/@basri.dogan.71/github-actions-jest-and-testing-library-react-9e78961e4240"
+  },
+  {
     heading: "Material UI, JSS and useStyles()",
     description:
       "In reality it applies the styling on top of the sytles that come with the theme. And with a bit of design and importing ThemeProvider, you can actually pass theme to children from a root React component (like App.js to other children React components)",
