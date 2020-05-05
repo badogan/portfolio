@@ -41,7 +41,7 @@ const ProjectsContent = [
   {
     name: "Meet In The Middle",
     description:
-      "Web app allowing users to find shortlisted places in locations with approximate similar travel times for all entered postcodes. Also allows users to go to Google Maps for a selected place, share via Whatsapp or travel with CityMapper. Google Maps Places, nearbysearch API for shortlisted places. Utilized api.postcodes.io for geoding, nearestpostcode assessment",
+      "Web app allowing users to find shortlisted places in locations with approximate similar travel times for all entered postcodes. Users can trigger Google Maps for a selected place, share via Whatsapp or travel with CityMapper. Google Maps Places, nearbysearch API for shortlisted places, api.postcodes.io for geoding, nearestpostcode assessment. Midpoint postcode tool also available as npm package. Please search for midpoint-postcode-uk in npmjs.com ",
     demoVideoURL: "https://youtu.be/YnpBwkC9IMg",
     sourceCodeURL: "https://github.com/badogan/experimental-design",
     liveSiteURL: "https://friendly-allen-734a93.netlify.com/",
