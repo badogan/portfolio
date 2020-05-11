@@ -78,6 +78,13 @@ const ProjectsContent = [
 
 const BlogpostsContent = [
   {
+    heading: "Making Life Easier: Typescript",
+    description:
+      "Further improvement with interface definitions and use those in your static type definitions. A couple of basic but powerful examples enforcing type declarations... ",
+    url:
+      "https://medium.com/@basri.dogan.71/making-life-easier-typescript-f0beec2f7490"
+  },
+  {
     heading: "Nodejs Express Middleware",
     description:
       "next() allows the “next” middleware function to do its job. People who develop code knows the importance of code hand overs. So, next() is providing just that without the need to even think about what is next",
