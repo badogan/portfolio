@@ -78,6 +78,13 @@ const ProjectsContent = [
 
 const BlogpostsContent = [
   {
+    heading: "MongoDB Aggregations and Redis",
+    description:
+      "MongoDB provides an aggregation where -rather than finding a set of records- MongoDB allows use of aggregation. Aggregation is an operation used to process the data that returns the computed results",
+    url:
+      "https://medium.com/@basri.dogan.71/mongodb-aggregations-and-redis-102c3d42da5"
+  },
+  {
     heading: "Making Life Easier: Typescript",
     description:
       "Further improvement with interface definitions and use those in your static type definitions. A couple of basic but powerful examples enforcing type declarations... ",
