@@ -78,6 +78,13 @@ const ProjectsContent = [
 
 const BlogpostsContent = [
   {
+    heading: "Redux, Thunk and Polling",
+    description:
+      "As part of frontend for the Track-and-Trace PoC, Thunk is used as middleware and it allows both sync and async to interact with the Redux store...",
+    url:
+      "https://medium.com/@basri.dogan.71/redux-thunk-and-polling-4e7819f1e53d"
+  },
+  {
     heading: "MongoDB Aggregations and Redis",
     description:
       "MongoDB provides an aggregation where -rather than finding a set of records- MongoDB allows use of aggregation. Aggregation is an operation used to process the data that returns the computed results",
