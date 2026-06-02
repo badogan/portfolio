@@ -1,3 +1,21 @@
+:root {
+  --bg: #15171c;
+  --surface: #1e212a;
+  --surface-2: #222632;
+  --text: #f2f2f2;
+  --muted: #8a90a0;
+  --accent: #3a7afe;
+  --accent-soft: #9db4ff;
+  --radius: 10px;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
 /* ========================================================== */
 /* BASIC SETUP */
 /* ========================================================== */
@@ -452,7 +470,7 @@ h5:active {
   width: 30%;
 } */
 
-/* 
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -487,3 +505,65 @@ h5:active {
     transform: rotate(360deg);
   }
 } */
+
+/* ---- Hub (Hero) ---- */
+.hub {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 12vh 20px 8vh;
+  text-align: center;
+}
+.hub-name {
+  font-size: 2.6rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 0 0 12px;
+}
+.hub-intro {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 540px;
+  margin: 0 auto 40px;
+}
+.hub-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.hub-tile {
+  display: block;
+  background: var(--surface);
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  padding: 28px 16px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1.05rem;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.hub-tile:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+.hub-tile--external { color: var(--accent-soft); }
+
+/* ---- Contact footer ---- */
+.contact-footer {
+  border-top: 1px solid var(--surface-2);
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--muted);
+}
+.contact-footer .contact-links {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+.contact-footer .contact-links i { cursor: pointer; }
+
+@media (max-width: 560px) {
+  .hub-grid { grid-template-columns: 1fr; }
+  .hub-name { font-size: 2rem; }
+}
