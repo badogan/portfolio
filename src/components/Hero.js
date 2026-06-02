@@ -24,7 +24,7 @@ const Hero = () => {
       </div>
 
       <div className="hero-mystack">
-        <h3>My stack:</h3>
+        <h3>My stack: (to be changed)</h3>
         <div className="hero-logos-div">
           {Object.keys(logos).map((logokey, index) => (
             <h6 key={index}>
