@@ -2,7 +2,6 @@ const HeroContent = {
   name: "Basri Dogan",
   intro:
     "Engineer, traveller, and occasional writer. This is my corner of the web — a few things I've built, places I've been, and thoughts I've put down.",
-  travelUrl: "https://prod.dvlnjbfqs5li.amplifyapp.com",
   tiles: [
     { label: "Travel", target: "https://prod.dvlnjbfqs5li.amplifyapp.com", external: true },
     { label: "Projects", target: "#projects", external: false },

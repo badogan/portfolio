@@ -4,7 +4,6 @@ test("HeroContent has hub fields", () => {
   expect(HeroContent.name).toBe("Basri Dogan");
   expect(typeof HeroContent.intro).toBe("string");
   expect(HeroContent.intro.length).toBeGreaterThan(0);
-  expect(HeroContent.travelUrl).toMatch(/^https?:\/\//);
   expect(HeroContent.logos).toBeDefined(); // kept: ProjectCard lookup
   expect(Array.isArray(HeroContent.stayintouchLogos)).toBe(true);
 });
@@ -19,7 +18,7 @@ test("HeroContent.tiles describe the four hub tiles", () => {
   });
   const byLabel = Object.fromEntries(HeroContent.tiles.map(t => [t.label, t]));
   expect(byLabel["Travel"].external).toBe(true);
-  expect(byLabel["Travel"].target).toBe(HeroContent.travelUrl);
+  expect(byLabel["Travel"].target).toMatch(/^https?:\/\//);
   expect(byLabel["Projects"]).toMatchObject({ target: "#projects", external: false });
   expect(byLabel["Writing"]).toMatchObject({ target: "#writing", external: false });
   expect(byLabel["Contact"]).toMatchObject({ target: "#contact", external: false });

@@ -16,6 +16,7 @@ test("renders one tile per config entry with correct hrefs", () => {
     expect(link).toHaveAttribute("href", tile.target);
     if (tile.external) {
       expect(link).toHaveAttribute("target", "_blank");
+      expect(link).toHaveAttribute("rel", "noopener noreferrer");
     } else {
       expect(link).not.toHaveAttribute("target", "_blank");
     }
