@@ -6,9 +6,9 @@ const BlogPosts = () => {
   const content = BlogpostsContent;
 
   return (
-    <div id="blogposts" className="blogposts-main-div wrapper">
+    <div id="writing" className="blogposts-main-div wrapper">
       <div className="blogposts-heading">
-        <h2>BLOGPOSTS</h2>
+        <h2>Writing</h2>
       </div>
       <div className="blogposts-blogpostcardsContainer">
         {content.map((blogpost, index) => (
