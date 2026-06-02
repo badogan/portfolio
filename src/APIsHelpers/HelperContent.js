@@ -1,8 +1,13 @@
 const HeroContent = {
   name: "Basri Dogan",
-  title: null,
-  button1Content: "Projects",
-  button2Content: "Blog Posts",
+  intro:
+    "Engineer, perpetual learner, always seeing the big picture — and in lifelong service of the people who do and the people who think. Here's a little of what I've built, where I've been, and what I've been chewing on.",
+  tiles: [
+    { label: "Travel", target: "https://prod.dvlnjbfqs5li.amplifyapp.com", external: true },
+    { label: "Projects", target: "#projects", external: false },
+    { label: "Writing", target: "#writing", external: false },
+    { label: "Contact", target: "#contact", external: false }
+  ],
   logos: {
     aws: "devicon-amazonwebservices-plain-wordmark",
     react: "devicon-react-original-wordmark",
