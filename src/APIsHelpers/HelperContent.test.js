@@ -19,6 +19,7 @@ test("HeroContent.tiles describe the four hub tiles", () => {
   });
   const byLabel = Object.fromEntries(HeroContent.tiles.map(t => [t.label, t]));
   expect(byLabel["Travel"].external).toBe(true);
+  expect(byLabel["Travel"].target).toBe(HeroContent.travelUrl);
   expect(byLabel["Projects"]).toMatchObject({ target: "#projects", external: false });
   expect(byLabel["Writing"]).toMatchObject({ target: "#writing", external: false });
   expect(byLabel["Contact"]).toMatchObject({ target: "#contact", external: false });
