@@ -599,8 +599,12 @@ h5:active {
   color: var(--muted);
   line-height: 1.55;
 }
-.btnProject,
-.btnProject-ghost {
+/* Match the pre-existing :link/:visited specificity (0,2,0) so the dark
+   accent wins by source order — plain .btnProject (0,1,0) would lose. */
+.btnProject:link,
+.btnProject:visited,
+.btnProject-ghost:link,
+.btnProject-ghost:visited {
   display: inline-block;
   margin-right: 10px;
   margin-top: 10px;
@@ -611,7 +615,14 @@ h5:active {
   text-decoration: none;
   font-size: 0.9rem;
 }
-.btnProject:hover { background: var(--accent); color: #fff; }
+.btnProject:hover,
+.btnProject:active,
+.btnProject-ghost:hover,
+.btnProject-ghost:active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
 .project-details-logos {
   display: flex;
   gap: 12px;
