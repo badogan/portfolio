@@ -630,3 +630,44 @@ h5:active {
   color: var(--muted);
   margin: 10px 0;
 }
+
+/* ========================================================== */
+/* APP LAUNCHER */
+/* ========================================================== */
+
+.launcher {
+  min-height: 100vh;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.launcher-back {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+  display: inline-block;
+}
+
+.launcher-back:hover {
+  color: var(--text);
+}
+
+.launcher-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.launcher-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.launcher-link:hover {
+  color: var(--accent-soft);
+}
