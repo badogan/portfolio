@@ -161,4 +161,10 @@ const BlogpostsContent = [
   }
 ];
 
-export { HeroContent, ProjectsContent, BlogpostsContent };
+const AppsContent = [
+  { name: "basri-travels",       url: "https://prod.dvlnjbfqs5li.amplifyapp.com/" },
+  { name: "basri-travels admin", url: "https://prod.dvlnjbfqs5li.amplifyapp.com/admin" },
+  { name: "todo-practical",      url: "https://prod.d2n3c97hzicakn.amplifyapp.com/login" },
+];
+
+export { HeroContent, ProjectsContent, BlogpostsContent, AppsContent };
