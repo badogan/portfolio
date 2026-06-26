@@ -7,7 +7,7 @@ const AppLauncher = () => (
     <Link to="/" className="launcher-back">← Back</Link>
     <ul className="launcher-list">
       {AppsContent.map(app => (
-        <li key={app.name} className="launcher-item">
+        <li key={app.name}>
           <a
             href={app.url}
             target="_blank"

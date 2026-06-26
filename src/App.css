@@ -684,4 +684,5 @@ h5:active {
 .hub-name-link:active {
   color: inherit;
   text-decoration: none;
+  /* outline preserved: browser default focus ring kept for keyboard a11y */
 }
