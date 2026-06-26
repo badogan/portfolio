@@ -671,3 +671,17 @@ h5:active {
 .launcher-link:hover {
   color: var(--accent-soft);
 }
+
+/* hub name — invisible router link, zero visual affordance */
+.hub-name-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
+.hub-name-link:hover,
+.hub-name-link:focus,
+.hub-name-link:visited,
+.hub-name-link:active {
+  color: inherit;
+  text-decoration: none;
+}

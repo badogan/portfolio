@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { HeroContent } from "../APIsHelpers/HelperContent";
 
 const Hero = () => {
@@ -6,7 +7,9 @@ const Hero = () => {
 
   return (
     <header className="hub">
-      <h1 className="hub-name">{name}</h1>
+      <h1 className="hub-name">
+        <Link to="/apps" className="hub-name-link">{name}</Link>
+      </h1>
       <p className="hub-intro">{intro}</p>
 
       <nav className="hub-grid">
